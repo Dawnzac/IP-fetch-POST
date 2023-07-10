@@ -1,11 +1,11 @@
 $ie = New-Object -ComObject 'internetExplorer.Application'
 $ie.Visible= $true # Make it visible
 
-$username="dawn"
+$username="#"
 
-$password="dawn"
+$password="#"
 
-$ie.Navigate("http://peas.pushpagiri.in:8085/ip/index.php")
+$ie.Navigate("http://#/index.php")
 
 While ($ie.Busy -eq $true) {Start-Sleep -Seconds 3;}
 
