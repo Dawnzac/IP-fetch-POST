@@ -2,13 +2,13 @@
 
 import requests
 
-response = requests.post("http://peas.pushpagiri.in:8085/ip/data_entry.php",
+response = requests.post("http://##/data_entry.php",
            data = {"ip_addre":"10.0.0.0","name":"testing","location":"Unallocated","floor":"Unallocated"})
 
 print(response.text) """
 
 import requests
-url = "http://peas.pushpagiri.in:8085/ip/addnew_ip.php"
+url = "http://##/addnew_ip.php"
 payload = {'ip_addre': '0005989', 'name': 'testing', 'location': 'Unallocated', 'floor': 'Unallocated'}
 with requests.session() as s:
     # fetch the login page
@@ -22,7 +22,7 @@ with requests.session() as s:
 """ import requests
 from requests.structures import CaseInsensitiveDict
 
-url = "http://peas.pushpagiri.in:8085/ip/addnew_ip.php"
+url = "http://##/addnew_ip.php"
 
 session = requests.Session()
 headers = CaseInsensitiveDict()
