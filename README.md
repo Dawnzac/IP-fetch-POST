@@ -1,4 +1,4 @@
-# Python-codes
-Completed / Ongoing python codes
+# IP Fetch
+Completed / Ongoing
 
-repo for python automation scripts.
+shell script for POST to database.
